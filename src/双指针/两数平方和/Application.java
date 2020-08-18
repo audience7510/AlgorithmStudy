@@ -1,4 +1,4 @@
-package Ë«Ö¸Õë.Á½ÊıÆ½·½ºÍ;
+package åŒæŒ‡é’ˆ.ä¸¤æ•°å¹³æ–¹å’Œ;
 
 public class Application {
     public static void main(String[] args) {
@@ -7,22 +7,22 @@ public class Application {
     }
 
     /**
-     * ÅĞ¶ÏÒ»¸ö·Ç¸ºÕûÊıÊÇ·ñÎªÁ½¸öÕûÊıµÄÆ½·½ºÍ
+     * åˆ¤æ–­ä¸€ä¸ªéè´Ÿæ•´æ•°æ˜¯å¦ä¸ºä¸¤ä¸ªæ•´æ•°çš„å¹³æ–¹å’Œ
      */
     public static boolean judgeSquareSum(int target){
         if(target<0){
             return false;
         }
-        //È¡targetµÄÆ½·½¸ù
+        //å–targetçš„å¹³æ–¹æ ¹
         double sqrt = Math.sqrt(target);
-        System.out.println("sqrt£º"+sqrt);
+        System.out.println("sqrtï¼š"+sqrt);
         int i = 0;
         int j = (int)sqrt;
         while (i<=j){
             int sum = i*i + j*j;
             if (sum == target){
-                System.out.println("i£º"+ i);
-                System.out.println("j£º"+ j);
+                System.out.println("iï¼š"+ i);
+                System.out.println("jï¼š"+ j);
                 return true;
             }else if (sum>target){
                 j--;

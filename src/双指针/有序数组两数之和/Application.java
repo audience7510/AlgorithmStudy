@@ -1,4 +1,4 @@
-package Ë«Ö¸Õë.ÓĞĞòÊı×éÁ½ÊıÖ®ºÍ;
+package åŒæŒ‡é’ˆ.æœ‰åºæ•°ç»„ä¸¤æ•°ä¹‹å’Œ;
 
 public class Application {
     public static void main(String[] args) {
@@ -16,10 +16,10 @@ public class Application {
         }
         int i = 0;
         int j = numbers.length-1;
-        //Ê±¼ä¸´ÔÓ¶ÈÎªO(N)£¬¿Õ¼ä¸´ÔÓ¶ÈÎªO(1)
+        //æ—¶é—´å¤æ‚åº¦ä¸ºO(N)ï¼Œç©ºé—´å¤æ‚åº¦ä¸ºO(1)
         while (i<j){
             if (target == numbers[i]+numbers[j]){
-                //·µ»ØË÷Òı+1
+                //è¿”å›ç´¢å¼•+1
                 return  new int[]{i,j};
             }else if (target > numbers[i]+numbers[j]){
                 i++;
