@@ -10,13 +10,16 @@ public class Application {
         }
     }
 
+    /**
+     * 时间复杂度为O(N)
+     * 空间复杂度为O(1)
+     */
     public static int[] twoSum(int[] numbers, int target){
         if (numbers == null){
             return null;
         }
         int i = 0;
         int j = numbers.length-1;
-        //时间复杂度为O(N)，空间复杂度为O(1)
         while (i<j){
             if (target == numbers[i]+numbers[j]){
                 //返回索引+1

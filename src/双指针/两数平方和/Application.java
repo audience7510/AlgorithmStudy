@@ -8,6 +8,8 @@ public class Application {
 
     /**
      * 判断一个非负整数是否为两个整数的平方和
+     * 时间复杂度为O(sqrt(target))
+     * 空间复杂度为O(1)
      */
     public static boolean judgeSquareSum(int target){
         if(target<0){
