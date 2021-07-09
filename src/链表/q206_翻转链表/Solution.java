@@ -12,7 +12,7 @@ package 链表.q206_翻转链表;
 public class Solution {
     public ListNode reverseList(ListNode head) {
         if (head==null||head.next==null){
-            return null;
+            return head;
         }
         //递归到末尾时，方法出栈
         ListNode listNode = reverseList(head.next);
