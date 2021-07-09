@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q160_相交链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q160_相交链表/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q206_翻转链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q21_合并两个有序链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q21_合并两个有序链表/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q83_删除排序链表中的重复元素/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q83_删除排序链表中的重复元素/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bilibili/SparseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/双指针/两数平方和/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/双指针/反转字符串中的元音字符/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/双指针/有序数组两数之和/Application.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1v3rVBAPqsBjCB7NizuiNDUYgiN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/链表/q83_删除排序链表中的重复元素" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="链表.q160_相交链表" />
+      <recent name="链表.common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="链表.q206_翻转链表" />
+      <recent name="链表.q160_相交链表" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q83_删除排序链表中的重复元素" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q21_合并两个有序链表" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\206翻转链表" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\160相交链表" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="" />
+      <created>1625801634092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625801634092</updated>
+      <workItem from="1625801635394" duration="8318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1625809101835">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1625809101835" />
+    <state x="419" y="234" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625809103505">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="419" y="234" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1625809103505" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1625802050498">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625802050498" />
+  </component>
+</project>
