@@ -7,7 +7,7 @@ import java.util.Stack;
  * @Author audience
  * @Date 2021/7/9
  * @Version 1.0
- * @Description   12345
+ * @Description
  * 思路：不能修改原始链表
  *      1、将两个链表压入栈中
  *      2、while循环判断栈是否为空，并弹栈
