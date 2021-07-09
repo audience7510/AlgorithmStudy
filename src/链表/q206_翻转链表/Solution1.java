@@ -9,7 +9,7 @@ package 链表.q206_翻转链表;
  * 思路：使用递归，获取到最后一个节点，最后一个节点的next指向前一个节点，
  *      前一个节点的next置为null
  */
-public class Solution {
+public class Solution1 {
     public ListNode reverseList(ListNode head) {
         if (head==null||head.next==null){
             return head;
