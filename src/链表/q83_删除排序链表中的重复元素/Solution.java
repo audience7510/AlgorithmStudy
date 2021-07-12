@@ -1,7 +1,7 @@
 package 链表.q83_删除排序链表中的重复元素;
 
 /**
- * @ClassName Program
+ * @ClassName Solution
  * @Author audience
  * @Date 2021/7/9
  * @Version 1.0

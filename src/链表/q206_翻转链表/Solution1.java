@@ -1,7 +1,7 @@
 package 链表.q206_翻转链表;
 
 /**
- * @ClassName Program
+ * @ClassName Solution1
  * @Author audience
  * @Date 2021/7/9
  * @Version 1.0

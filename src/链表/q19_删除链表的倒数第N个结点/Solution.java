@@ -1,7 +1,7 @@
 package 链表.q19_删除链表的倒数第N个结点;
 
 /**
- * @ClassName Program
+ * @ClassName Solution
  * @Author audience
  * @Date 2021/7/9
  * @Version 1.0

@@ -1,7 +1,7 @@
 package 链表.q21_合并两个有序链表;
 
 /**
- * @ClassName Program
+ * @ClassName Solution
  * @Author audience
  * @Date 2021/7/9
  * @Version 1.0

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/q25_K个一组翻转链表/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/q25_K个一组翻转链表/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/q328_奇偶链表/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/q328_奇偶链表/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q61_旋转链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q61_旋转链表/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q160_相交链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q160_相交链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q19_删除链表的倒数第N个结点/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q19_删除链表的倒数第N个结点/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q206_翻转链表/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q21_合并两个有序链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q21_合并两个有序链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q234_回文链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q234_回文链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q24_两两交换链表中的节点/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q24_两两交换链表中的节点/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q25_K个一组翻转链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q25_K个一组翻转链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q328_奇偶链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q328_奇偶链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q445_两数相加/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q445_两数相加/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/q83_删除排序链表中的重复元素/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/q83_删除排序链表中的重复元素/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/链表/q25_K个一组翻转链表" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/链表/q61_旋转链表" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,11 +62,11 @@
       <recent name="链表.q160_相交链表" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K个一组翻转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K 个一组翻转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q328_奇偶链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q725_分隔链表" />
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q234_回文链表" />
     </key>
   </component>
   <component name="RunManager">
@@ -92,7 +99,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625801634092</updated>
-      <workItem from="1625801635394" duration="18556000" />
+      <workItem from="1625801635394" duration="20823000" />
+      <workItem from="1626052682159" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="链表相关">
       <created>1625815221614</created>
@@ -122,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625821994199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="链表相关">
+      <created>1625825385222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625825385222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,50 +160,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="419" y="234" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1625809103505" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1625821993552">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1625825384472">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1625821993552" />
-    <state width="1237" height="361" key="GridCell.Tab.0.bottom" timestamp="1625821823459">
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1625825384472" />
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1625827806559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.0.center" timestamp="1625821823459">
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625827806559" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1625827806559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.0.left" timestamp="1625821823459">
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625827806559" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1625827806558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.0.right" timestamp="1625821823459">
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625827806558" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1625827806559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.1.bottom" timestamp="1625821823459">
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625827806559" />
+    <state width="1237" height="361" key="GridCell.Tab.1.bottom" timestamp="1625827806556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.1.center" timestamp="1625821823459">
+    <state width="1237" height="361" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625827806556" />
+    <state width="1237" height="361" key="GridCell.Tab.1.center" timestamp="1625827806556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.1.left" timestamp="1625821823459">
+    <state width="1237" height="361" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1625827806556" />
+    <state width="1237" height="361" key="GridCell.Tab.1.left" timestamp="1625827806556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
-    <state width="1237" height="361" key="GridCell.Tab.1.right" timestamp="1625821823459">
+    <state width="1237" height="361" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1625827806556" />
+    <state width="1237" height="361" key="GridCell.Tab.1.right" timestamp="1625827806556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="361" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1625821823459" />
+    <state width="1237" height="361" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1625827806556" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1625821751781">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625821751781" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1625822241119">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1625825961211">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625822241119" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625825961211" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

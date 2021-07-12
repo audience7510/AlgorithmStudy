@@ -1,7 +1,7 @@
 package 链表.q24_两两交换链表中的节点;
 
 /**
- * @ClassName Program
+ * @ClassName Solution
  * @Author audience
  * @Date 2021/7/9
  * @Version 1.0
