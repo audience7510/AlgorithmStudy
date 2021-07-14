@@ -1,4 +1,4 @@
-package 排序.堆.q451_根据字符出现频率排序;
+package 排序.其他.q451_根据字符出现频率排序;
 
 import java.util.ArrayList;
 import java.util.HashMap;
