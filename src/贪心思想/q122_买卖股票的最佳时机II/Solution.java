@@ -16,7 +16,8 @@ public class Solution {
             return 0;
         }
         int total = 0;
-        for (int i = 0; i < prices.length; i++) {
+        //从1开始，不然[i-1]会索引越界
+        for (int i = 1; i < prices.length; i++) {
             //当前比前一天大
             if (prices[i] > prices[i-1]){
                 //当天的减去昨天的，并且卖出的钱相加
