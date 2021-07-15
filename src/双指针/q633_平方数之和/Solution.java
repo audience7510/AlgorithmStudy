@@ -16,7 +16,7 @@ public class Solution {
         }
         int i = 0;
         int j = (int)Math.sqrt(c);
-        while (i < j){
+        while (i <= j){
             int sum = i*i + j*j;
             if (sum == c){
                 return true;

@@ -14,16 +14,16 @@ import java.util.HashSet;
  *      当两个指针都遍历到元音字符时，交换这两个元音字符
  */
 public class Solution {
-    private final static HashSet<Character> hashSet = new HashSet<>(
-            Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
     public String reverseVowels(String s) {
+        HashSet<Character> hashSet = new HashSet<>(
+                Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
         if (s == null){
             return null;
         }
         int i = 0;
         int j = s.length()-1;
         char[] result = new char[s.length()];
-        while (i < j){
+        while (i <= j){
             char ci = s.charAt(i);
             char cj = s.charAt(j);
             if (!hashSet.contains(ci)){
