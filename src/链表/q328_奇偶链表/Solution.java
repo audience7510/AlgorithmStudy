@@ -26,7 +26,7 @@ public class Solution {
             //奇数节点后移
             node1 = node1.next;
             //偶数节点相连
-            node2 = node2.next.next;
+            node2.next = node2.next.next;
             //偶数节点后移
             node2 = node2.next;
         }

@@ -18,7 +18,7 @@ public class Solution {
         for (int i = 0; i < k; i++) {
             //不够k个直接返回
             if (b == null){
-                return null;
+                return head;
             }
             b = b.next;
         }
@@ -29,7 +29,7 @@ public class Solution {
         return reverse;
     }
 
-    private ListNode reverseA2B(ListNode a,ListNode b){
+    public ListNode reverseA2B(ListNode a,ListNode b){
         ListNode pre = null;
         ListNode cur = a;
         while (cur != b){

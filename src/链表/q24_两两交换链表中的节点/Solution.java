@@ -11,6 +11,9 @@ package 链表.q24_两两交换链表中的节点;
  */
 public class Solution {
     public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null){
+            return head;
+        }
         ListNode first = head;
         ListNode second = head.next;
         //节点互换

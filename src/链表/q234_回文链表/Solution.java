@@ -34,7 +34,7 @@ public class Solution {
         boolean equal = isEqual(head, reverse);
         return equal;
     }
-    private ListNode getReverse(ListNode head) {
+    public ListNode getReverse(ListNode head) {
         if (head == null || head.next == null){
             return head;
         }
@@ -43,13 +43,13 @@ public class Solution {
         head.next = null;
         return node;
     }
-    private void cut(ListNode head, ListNode cutNode) {
+    public void cut(ListNode head, ListNode cutNode) {
         while (head.next!=cutNode){
             head = head.next;
         }
         head.next = null;
     }
-    private boolean isEqual(ListNode l1, ListNode l2) {
+    public boolean isEqual(ListNode l1, ListNode l2) {
         while (l1!=null && l2!=null){
             if (l1.val != l2.val){
                 return false;

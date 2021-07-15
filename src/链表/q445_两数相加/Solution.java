@@ -42,7 +42,7 @@ public class Solution {
     }
 
     //将链表值压入栈中
-    private Stack<Integer> buildStack(ListNode l) {
+    public Stack<Integer> buildStack(ListNode l) {
         Stack<Integer> stack = new Stack();
         while (l != null){
             stack.push(l.val);
