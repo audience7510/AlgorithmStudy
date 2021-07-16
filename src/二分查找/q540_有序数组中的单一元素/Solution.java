@@ -14,7 +14,7 @@ public class Solution {
     public int singleNonDuplicate(int[] nums) {
         int l = 0;
         int r = nums.length-1;
-        while (l <= r){
+        while (l < r){
             int mid = l + (r-l)/2;
             //与2取余数，余1是奇数
             if (mid%2 ==1){
@@ -26,7 +26,7 @@ public class Solution {
                 //加两位保证偶数
                 l = mid+2;
             }else {
-                r = mid-2;
+                r = mid;
             }
         }
         return nums[l];
