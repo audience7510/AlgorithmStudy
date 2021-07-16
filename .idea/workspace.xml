@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/二分查找/q744_寻找比目标字母大的最小字母/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/二分查找/q540_有序数组中的单一元素/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,7 @@
       <workItem from="1626138843366" duration="22628000" />
       <workItem from="1626231407166" duration="20724000" />
       <workItem from="1626311299414" duration="27166000" />
-      <workItem from="1626397374144" duration="5729000" />
+      <workItem from="1626397374144" duration="6922000" />
     </task>
     <task id="LOCAL-00001" summary="链表相关">
       <created>1625815221614</created>
@@ -348,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626403509187</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="二分查找">
+      <created>1626405369012</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1626405369012</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,10 +409,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626252706186" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626403508610">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626405368510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626403508610" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626405368510" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -442,14 +449,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626405163894" />
+    <state x="393" y="42" key="RollbackChangesDialog" timestamp="1626405353307">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="393" y="42" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1626405353307" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1626061511064">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626061511064" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626403536166">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626405369826">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626403536166" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626405369826" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -464,15 +475,6 @@
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626336938181" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/二分查找/q744_寻找比目标字母大的最小字母/Solution.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="nodes[1]" />
