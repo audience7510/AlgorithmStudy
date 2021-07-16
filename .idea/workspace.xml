@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/二分查找/q69_x的平方根/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/二分查找/q744_寻找比目标字母大的最小字母/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q725_分隔链表" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="贪心思想.q53_最大子序和.Solution" />
       <module name="LeetCodeStudy" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.其他.q75_颜色分类.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二分查找.q744_寻找比目标字母大的最小字母.Solution" />
       <module name="LeetCodeStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序.其他.q75_颜色分类.*" />
+          <option name="PATTERN" value="二分查找.q744_寻找比目标字母大的最小字母.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1626138843366" duration="22628000" />
       <workItem from="1626231407166" duration="20724000" />
       <workItem from="1626311299414" duration="27166000" />
-      <workItem from="1626397374144" duration="3910000" />
+      <workItem from="1626397374144" duration="5729000" />
     </task>
     <task id="LOCAL-00001" summary="链表相关">
       <created>1625815221614</created>
@@ -341,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626345410120</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="二分查找">
+      <created>1626403509187</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1626403509187</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +374,8 @@
     <MESSAGE value="贪心思想" />
     <MESSAGE value="链表相关" />
     <MESSAGE value="双指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针" />
+    <MESSAGE value="二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -394,54 +402,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626252706186" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626345409617">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626403508610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626345409617" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626403508610" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="422" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1626314822273" />
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1626345647783">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1626405163893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626345647783" />
-    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1626345647783">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626405163893" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1626405163893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626345647783" />
-    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1626345647783">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626405163893" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1626405163893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626345647783" />
-    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1626345647783">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626405163893" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1626405163893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626345647783" />
-    <state width="1237" height="156" key="GridCell.Tab.1.bottom" timestamp="1626345647782">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626405163893" />
+    <state width="1237" height="176" key="GridCell.Tab.1.bottom" timestamp="1626405163894">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626345647782" />
-    <state width="1237" height="156" key="GridCell.Tab.1.center" timestamp="1626345647782">
+    <state width="1237" height="176" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626405163894" />
+    <state width="1237" height="176" key="GridCell.Tab.1.center" timestamp="1626405163893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626345647782" />
-    <state width="1237" height="156" key="GridCell.Tab.1.left" timestamp="1626345647781">
+    <state width="1237" height="176" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626405163893" />
+    <state width="1237" height="176" key="GridCell.Tab.1.left" timestamp="1626405163893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626345647781" />
-    <state width="1237" height="156" key="GridCell.Tab.1.right" timestamp="1626345647782">
+    <state width="1237" height="176" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626405163893" />
+    <state width="1237" height="176" key="GridCell.Tab.1.right" timestamp="1626405163894">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626345647782" />
+    <state width="1237" height="176" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626405163894" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1626061511064">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626061511064" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626345488566">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626403536166">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626345488566" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626403536166" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -456,6 +464,15 @@
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626336938181" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/二分查找/q744_寻找比目标字母大的最小字母/Solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="nodes[1]" />
