@@ -32,7 +32,6 @@
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/动态规划/斐波那契数列/q198_打家劫舍/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/斐波那契数列/q198_打家劫舍/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/斐波那契数列/q70_爬楼梯/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/斐波那契数列/q70_爬楼梯/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,8 @@
       <workItem from="1626311299414" duration="27166000" />
       <workItem from="1626397374144" duration="24018000" />
       <workItem from="1626656765856" duration="884000" />
-      <workItem from="1626658020963" duration="6678000" />
+      <workItem from="1626658020963" duration="8536000" />
+      <workItem from="1626744626281" duration="4503000" />
     </task>
     <task id="LOCAL-00001" summary="链表相关">
       <created>1625815221614</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626426301387</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="动态规划">
+      <created>1626673970066</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1626673970066</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,10 +394,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626419396075" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626426300886">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626673969329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626426300886" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626673969329" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -439,10 +446,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626426302003">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626674119958">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626426302003" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626674119958" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
