@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/动态规划/分割整数/q279_完全平方数/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/分割整数/q343_整数拆分/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/分割整数/q343_整数拆分/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1626658020963" duration="8536000" />
       <workItem from="1626744626281" duration="5370000" />
       <workItem from="1626830909375" duration="18343000" />
-      <workItem from="1626915467363" duration="2435000" />
+      <workItem from="1626915467363" duration="5262000" />
     </task>
     <task id="LOCAL-00001" summary="链表相关">
       <created>1625815221614</created>
@@ -385,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626853542384</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="动态规划">
+      <created>1626918598051</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1626918598051</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,10 +459,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626419396075" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626853541853">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626918597300">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626853541853" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626918597300" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -504,10 +511,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626853543049">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626918599062">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626853543049" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626918599062" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
