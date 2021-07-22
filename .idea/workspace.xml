@@ -30,8 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/动态规划/最长递增子序列/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/动态规划/最长递增子序列/q646_最长数对链/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="动态规划.最长递增子序列.q300_最长递增子序列" />
       <recent name="动态规划.斐波那契数列" />
       <recent name="排序.其他" />
       <recent name="排序.堆" />
       <recent name="链表.q160_相交链表" />
-      <recent name="链表.common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="树.q110_平衡二叉树" />
@@ -110,7 +111,7 @@
       <workItem from="1626658020963" duration="8536000" />
       <workItem from="1626744626281" duration="5370000" />
       <workItem from="1626830909375" duration="18343000" />
-      <workItem from="1626915467363" duration="9221000" />
+      <workItem from="1626915467363" duration="11548000" />
     </task>
     <task id="LOCAL-00001" summary="链表相关">
       <created>1625815221614</created>
@@ -406,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626922660729</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="动态规划">
+      <created>1626925510513</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1626925510513</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,30 +469,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626657859486" />
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1626419395079">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1626925458310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1626419395079" />
-    <state x="419" y="234" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625809103505">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1626925458310" />
+    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626925459173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="419" y="234" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1625809103505" />
+    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1626925459173" />
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1626419396075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626419396075" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626922660175">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1626925510061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626922660175" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626925510061" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="422" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1626314822273" />
-    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1626658085036">
+    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1626939756232">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626658085036" />
+    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626939756232" />
     <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1626433122686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -525,10 +533,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626922661544">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626925552087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626922661544" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626925552087" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
