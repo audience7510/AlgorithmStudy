@@ -1,5 +1,5 @@
 # LeetCodeStudy
-LeetCode的刷题学习的一个记录过程，代码中有详细的解题思路，与代码注释。  
+LeetCode刷题学习的一个记录过程，代码中有详细的解题思路与代码注释。  
 ## 题目分类
 ### 二分查找
 - [q34_查找第一和最后一个位置](src/二分查找/q34_查找第一和最后一个位置)  
@@ -72,7 +72,7 @@ LeetCode的刷题学习的一个记录过程，代码中有详细的解题思路
 - [q94_二叉树的中序遍历](src/树/q94_二叉树的中序遍历)  
 - [q110_平衡二叉树](src/树/q110_平衡二叉树)
 #
-解题思路，参考了优秀的GitHub项目，如下：  
+解题思路参考了优秀的GitHub项目，如下：  
 1、https://github.com/CyC2018/CS-Notes  
 2、https://github.com/labuladong/fucking-algorithm  
 3、https://github.com/geekxh/hello-algorithm  
