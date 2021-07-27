@@ -30,9 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/动态规划/背包问题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/背包问题/q416_分割等和子集/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包问题/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/背包问题/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +117,7 @@
       <workItem from="1626830909375" duration="18343000" />
       <workItem from="1626915467363" duration="26950000" />
       <workItem from="1627261212983" duration="4278000" />
-      <workItem from="1627349962445" duration="14943000" />
-    </task>
-    <task id="LOCAL-00010" summary="双指针">
-      <created>1626071623236</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1626071623236</updated>
+      <workItem from="1627349962445" duration="15245000" />
     </task>
     <task id="LOCAL-00011" summary="双指针">
       <created>1626142277289</created>
@@ -463,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627357855577</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="动态规划">
+      <created>1627376209094</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1627376209094</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,9 +501,9 @@
     <MESSAGE value="二分查找" />
     <MESSAGE value="贪心思想" />
     <MESSAGE value="面试相关" />
-    <MESSAGE value="动态规划" />
     <MESSAGE value="README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <MESSAGE value="动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -531,10 +530,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626944129696" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1627357855074">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1627376208575">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627357855074" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627376208575" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -583,10 +582,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627357856219">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627376209808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627357856219" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627376209808" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

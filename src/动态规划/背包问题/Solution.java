@@ -63,6 +63,7 @@ public class Solution {
         for (int i = 1; i <= N; i++) {
             int w = weights[i-1];
             int v = values[i-1];
+            //倒序遍历
             for (int j = W; j >= 1; j--) {
                 if (j >= w){
                     dp[j] = Math.max(dp[j],dp[j-w]+v);
