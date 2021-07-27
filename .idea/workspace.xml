@@ -30,8 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/动态规划/背包问题/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/动态规划/背包问题/q416_分割等和子集/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,21 +71,12 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="动态规划.背包问题.q416_分割等和子集" />
       <recent name="贪心思想" />
       <recent name="动态规划.最长递增子序列.q300_最长递增子序列" />
       <recent name="动态规划.斐波那契数列" />
       <recent name="排序.其他" />
-      <recent name="排序.堆" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="树.q110_平衡二叉树" />
-      <recent name="树.q94_二叉树的中序遍历" />
-      <recent name="链表.q206_翻转链表" />
-      <recent name="链表.q160_相交链表" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
@@ -91,6 +84,16 @@
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K 个一组翻转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q328_奇偶链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q725_分隔链表" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="动态规划.背包问题.q416_分割等和子集" />
+      <recent name="树.q110_平衡二叉树" />
+      <recent name="树.q94_二叉树的中序遍历" />
+      <recent name="链表.q206_翻转链表" />
+      <recent name="链表.q160_相交链表" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -115,14 +118,7 @@
       <workItem from="1626830909375" duration="18343000" />
       <workItem from="1626915467363" duration="26950000" />
       <workItem from="1627261212983" duration="4278000" />
-      <workItem from="1627349962445" duration="5741000" />
-    </task>
-    <task id="LOCAL-00009" summary="树相关">
-      <created>1626069236053</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1626069236053</updated>
+      <workItem from="1627349962445" duration="14943000" />
     </task>
     <task id="LOCAL-00010" summary="双指针">
       <created>1626071623236</created>
@@ -460,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627357795545</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="README.md">
+      <created>1627357855577</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1627357855577</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,9 +502,9 @@
     <MESSAGE value="二分查找" />
     <MESSAGE value="贪心思想" />
     <MESSAGE value="面试相关" />
-    <MESSAGE value="README.md" />
     <MESSAGE value="动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -516,22 +519,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626657859486" />
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1626944128710">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1627366184881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1626944128710" />
-    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626925459173">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627366184881" />
+    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627366186172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1626925459173" />
+    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1627366186172" />
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1626944129696">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626944129696" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1627357794839">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1627357855074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627357794839" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627357855074" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -580,10 +583,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627357796853">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627357856219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627357796853" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627357856219" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -592,10 +595,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1626336639859" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1627357111134">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1627366474828">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1627357111134" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1627366474828" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
