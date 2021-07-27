@@ -1,4 +1,4 @@
-package 动态规划.最长递增子序列.q300_最长递增子序列;
+package 动态规划.最长子序列.q300_最长递增子序列;
 
 /**
  * @ClassName Solution
