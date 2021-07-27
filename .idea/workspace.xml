@@ -30,11 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/动态规划/最长子序列/q1143_最长公共子序列/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/最长递增子序列/q300_最长递增子序列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/最长子序列/q300_最长递增子序列/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/最长递增子序列/q376_摆动序列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/最长子序列/q376_摆动序列/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +115,7 @@
       <workItem from="1626830909375" duration="18343000" />
       <workItem from="1626915467363" duration="26950000" />
       <workItem from="1627261212983" duration="4278000" />
-      <workItem from="1627349962445" duration="5683000" />
-    </task>
-    <task id="LOCAL-00008" summary="树相关">
-      <created>1626061616789</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1626061616789</updated>
+      <workItem from="1627349962445" duration="5741000" />
     </task>
     <task id="LOCAL-00009" summary="树相关">
       <created>1626069236053</created>
@@ -463,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627282174974</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="动态规划">
+      <created>1627357795545</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1627357795545</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,10 +528,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626944129696" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1627282174294">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1627357794839">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627282174294" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627357794839" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -583,10 +580,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627282176060">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1627357796853">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627282176060" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627357796853" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
