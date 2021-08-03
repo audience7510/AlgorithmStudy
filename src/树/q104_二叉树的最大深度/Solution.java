@@ -15,6 +15,7 @@ public class Solution {
         }
         int left = maxDepth(root.left);
         int right = maxDepth(root.right);
+        //返回以该节点为根的子树的深度
         return Math.max(left,right)+1;
     }
 }
