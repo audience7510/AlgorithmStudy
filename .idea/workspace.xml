@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/q572_另一棵树的子树/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/q572_另一棵树的子树/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/q101_对称二叉树/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/q101_对称二叉树/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +82,11 @@
       <recent name="排序.其他" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="树.q101_对称二叉树" />
       <recent name="树.q572_另一棵树的子树" />
       <recent name="树.q437_路径总和III" />
       <recent name="树.q112_路径总和" />
       <recent name="树.q617_合并二叉树" />
-      <recent name="树.q226_翻转二叉树" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
@@ -124,14 +124,7 @@
       <workItem from="1627615477672" duration="7871000" />
       <workItem from="1627868208967" duration="6467000" />
       <workItem from="1627956570134" duration="10209000" />
-      <workItem from="1628040017498" duration="3325000" />
-    </task>
-    <task id="LOCAL-00024" summary="双指针">
-      <created>1626345410120</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1626345410120</updated>
+      <workItem from="1628040017498" duration="4272000" />
     </task>
     <task id="LOCAL-00025" summary="二分查找">
       <created>1626403509187</created>
@@ -469,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628041218212</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="树">
+      <created>1628043577431</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1628043577431</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,10 +538,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626944129696" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1628041217704">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1628043576904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628041217704" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628043576904" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -594,10 +594,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628041303273">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628043578617">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628041303273" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628043578617" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
