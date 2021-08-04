@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/q404_左叶子之和/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/q404_左叶子之和/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/q687_最长同值路径/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/q687_最长同值路径/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +82,11 @@
       <recent name="排序.其他" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="树.q687_最长同值路径" />
       <recent name="树.q404_左叶子之和" />
       <recent name="树.q111_二叉树的最小深度" />
       <recent name="树.q101_对称二叉树" />
       <recent name="树.q572_另一棵树的子树" />
-      <recent name="树.q437_路径总和III" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
@@ -124,14 +124,7 @@
       <workItem from="1627615477672" duration="7871000" />
       <workItem from="1627868208967" duration="6467000" />
       <workItem from="1627956570134" duration="10209000" />
-      <workItem from="1628040017498" duration="6414000" />
-    </task>
-    <task id="LOCAL-00028" summary="二分查找">
-      <created>1626417523770</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1626417523770</updated>
+      <workItem from="1628040017498" duration="9455000" />
     </task>
     <task id="LOCAL-00029" summary="动态规划">
       <created>1626426142029</created>
@@ -469,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628045432549</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="树">
+      <created>1628046579428</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1628046579428</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,10 +538,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626944129696" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1628045432039">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1628046578914">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628045432039" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628046578914" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -594,10 +594,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628045433353">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628046580153">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628045433353" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628046580153" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
