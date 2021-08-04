@@ -22,8 +22,8 @@ public class Solution {
         return pathNumber;
     }
     /**
-     * 当前节点root为起始节点，找到符合条件的节点
-     * 与<q112_路径总和>题目类似，做减法
+     * 当前节点root为起始节点，找到符合条件的节点，并且与
+     * @see 树.q112_路径总和.Solution 题目类似，做减法
      */
     public void sum(TreeNode root,int sum){
         if (root == null){
