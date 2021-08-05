@@ -30,9 +30,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/q671_二叉树中第二小的节点/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/q671_二叉树中第二小的节点/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/层次遍历/q637_二叉树的层平均值/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/递归/q94_二叉树的中序遍历/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q101_对称二叉树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q101_对称二叉树/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q101_对称二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q101_对称二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q104_二叉树的最大深度/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q104_二叉树的最大深度/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q104_二叉树的最大深度/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q104_二叉树的最大深度/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q110_平衡二叉树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q110_平衡二叉树/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q110_平衡二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q110_平衡二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q111_二叉树的最小深度/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q111_二叉树的最小深度/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q111_二叉树的最小深度/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q111_二叉树的最小深度/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q112_路径总和/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q112_路径总和/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q112_路径总和/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q112_路径总和/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q226_翻转二叉树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q226_翻转二叉树/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q226_翻转二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q226_翻转二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q337_打家劫舍III/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q337_打家劫舍III/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q337_打家劫舍III/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q337_打家劫舍III/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q404_左叶子之和/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q404_左叶子之和/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q404_左叶子之和/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q404_左叶子之和/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q437_路径总和III/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q437_路径总和III/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q437_路径总和III/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q437_路径总和III/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q543_二叉树的直径/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q543_二叉树的直径/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q543_二叉树的直径/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q543_二叉树的直径/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q572_另一棵树的子树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q572_另一棵树的子树/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q572_另一棵树的子树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q572_另一棵树的子树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q617_合并二叉树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q617_合并二叉树/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q617_合并二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q617_合并二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q671_二叉树中第二小的节点/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q671_二叉树中第二小的节点/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q671_二叉树中第二小的节点/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q671_二叉树中第二小的节点/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q687_最长同值路径/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q687_最长同值路径/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q687_最长同值路径/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q687_最长同值路径/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q94_二叉树的中序遍历/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/递归/q94_二叉树的中序遍历/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/q94_二叉树的中序遍历/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/层次遍历/q637_二叉树的层平均值/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="树.递归" />
       <recent name="动态规划.背包问题.q416_分割等和子集" />
       <recent name="贪心思想" />
       <recent name="动态规划.最长递增子序列.q300_最长递增子序列" />
       <recent name="动态规划.斐波那契数列" />
-      <recent name="排序.其他" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
@@ -86,11 +115,11 @@
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q725_分隔链表" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="树.层次遍历.q637_二叉树的层平均值" />
       <recent name="树.q671_二叉树中第二小的节点" />
       <recent name="树.q337_打家劫舍III" />
       <recent name="树.q687_最长同值路径" />
       <recent name="树.q404_左叶子之和" />
-      <recent name="树.q111_二叉树的最小深度" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
@@ -125,14 +154,7 @@
       <workItem from="1627868208967" duration="6467000" />
       <workItem from="1627956570134" duration="10209000" />
       <workItem from="1628040017498" duration="11981000" />
-      <workItem from="1628125977785" duration="6407000" />
-    </task>
-    <task id="LOCAL-00031" summary="动态规划">
-      <created>1626673970066</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1626673970066</updated>
+      <workItem from="1628125977785" duration="6960000" />
     </task>
     <task id="LOCAL-00032" summary="动态规划">
       <created>1626776383396</created>
@@ -470,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628130482276</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="树">
+      <created>1628134354485</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1628134354485</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,22 +556,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626657859486" />
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1627366184881">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1628134459878">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627366184881" />
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1628134459878" />
     <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627366186172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1627366186172" />
-    <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1626944129696">
+    <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1628134461999">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1626944129696" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1628130481528">
+    <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1628134353972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628130481528" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628134353972" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -595,10 +624,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628130514647">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628134394167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628130514647" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628134394167" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
