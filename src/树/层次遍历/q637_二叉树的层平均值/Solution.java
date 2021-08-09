@@ -1,5 +1,7 @@
 package 树.层次遍历.q637_二叉树的层平均值;
 
+import java.util.List;
+
 /**
  * @ClassName Solution
  * @Author audience
@@ -8,4 +10,8 @@ package 树.层次遍历.q637_二叉树的层平均值;
  * @Description
  */
 public class Solution {
+    public List<Double> averageOfLevels(TreeNode root) {
+
+        return null;
+    }
 }
