@@ -30,8 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/层次遍历/q513_找树左下角的值/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/层次遍历/q513_找树左下角的值/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/树/层次遍历/q637_二叉树的层平均值/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/层次遍历/q637_二叉树的层平均值/Solution.java" afterDir="false" />
     </list>
@@ -128,13 +126,8 @@
       <workItem from="1628040017498" duration="11981000" />
       <workItem from="1628125977785" duration="9222000" />
       <workItem from="1628212237705" duration="1363000" />
-    </task>
-    <task id="LOCAL-00033" summary="动态规划">
-      <created>1626836219255</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1626836219255</updated>
+      <workItem from="1628487464219" duration="735000" />
+      <workItem from="1628562533779" duration="832000" />
     </task>
     <task id="LOCAL-00034" summary="动态规划">
       <created>1626837386891</created>
@@ -472,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628134928189</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="树">
+      <created>1628487496425</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1628487496426</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,10 +541,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628134927422">
+    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628487495926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628134927422" />
+    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628487495926" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -597,10 +597,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628134929032">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628487498132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628134929032" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628487498132" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
