@@ -30,8 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/树/BST/q669_修剪二叉搜索树/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/树/BST/q669_修剪二叉搜索树/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/层次遍历/q513_找树左下角的值/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/层次遍历/q513_找树左下角的值/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="树.递归" />
       <recent name="动态规划.背包问题.q416_分割等和子集" />
@@ -77,22 +82,19 @@
       <recent name="动态规划.最长递增子序列.q300_最长递增子序列" />
       <recent name="动态规划.斐波那契数列" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="树.BST.q669_修剪二叉搜索树" />
+      <recent name="树.层次遍历.q513_找树左下角的值" />
+      <recent name="树.层次遍历.q637_二叉树的层平均值" />
+      <recent name="树.q671_二叉树中第二小的节点" />
+      <recent name="树.q337_打家劫舍III" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K个一组翻转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K 个一组翻转链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q328_奇偶链表" />
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q725_分隔链表" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="树.层次遍历.q513_找树左下角的值" />
-      <recent name="树.层次遍历.q637_二叉树的层平均值" />
-      <recent name="树.q671_二叉树中第二小的节点" />
-      <recent name="树.q337_打家劫舍III" />
-      <recent name="树.q687_最长同值路径" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
     </key>
   </component>
   <component name="RunManager">
@@ -149,14 +151,8 @@
       <workItem from="1628487464219" duration="735000" />
       <workItem from="1628562533779" duration="4141000" />
       <workItem from="1628582112318" duration="3003000" />
-      <workItem from="1628678176205" duration="612000" />
-    </task>
-    <task id="LOCAL-00035" summary="动态规划">
-      <created>1626848309528</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1626848309528</updated>
+      <workItem from="1628678176205" duration="666000" />
+      <workItem from="1628730846927" duration="2756000" />
     </task>
     <task id="LOCAL-00036" summary="动态规划">
       <created>1626849129099</created>
@@ -494,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628563383542</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="树">
+      <created>1628679519552</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1628679519554</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,10 +566,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628563382936">
+    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628679518933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628563382936" />
+    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628679518933" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -619,10 +622,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628563461560">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628679520481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628563461560" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628679520481" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
