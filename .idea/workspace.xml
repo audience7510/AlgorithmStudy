@@ -30,10 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/BST/q669_修剪二叉搜索树/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/BST/q669_修剪二叉搜索树/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/栈和队列/q155_最小栈/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/栈和队列/q20_有效的括号/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/栈和队列/q232_用栈实现队列/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +152,7 @@
       <workItem from="1628562533779" duration="4141000" />
       <workItem from="1628582112318" duration="3003000" />
       <workItem from="1628678176205" duration="666000" />
-      <workItem from="1628730846927" duration="2756000" />
-    </task>
-    <task id="LOCAL-00036" summary="动态规划">
-      <created>1626849129099</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1626849129099</updated>
+      <workItem from="1628730846927" duration="5458000" />
     </task>
     <task id="LOCAL-00037" summary="动态规划">
       <created>1626851226460</created>
@@ -497,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628679519554</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="树+README.md">
+      <created>1628762106037</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1628762106037</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +539,8 @@
     <MESSAGE value="README.md" />
     <MESSAGE value="动态规划" />
     <MESSAGE value="树" />
-    <option name="LAST_COMMIT_MESSAGE" value="树" />
+    <MESSAGE value="树+README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="树+README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -566,10 +567,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628679518933">
+    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628762105525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628679518933" />
+    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628762105525" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -622,10 +623,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628679520481">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628762107095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628679520481" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628762107095" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
