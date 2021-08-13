@@ -30,9 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/栈和队列/q155_最小栈/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/栈和队列/q20_有效的括号/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/栈和队列/q232_用栈实现队列/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/栈和队列/q739_每日温度/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +151,7 @@
       <workItem from="1628582112318" duration="3003000" />
       <workItem from="1628678176205" duration="666000" />
       <workItem from="1628730846927" duration="5458000" />
+      <workItem from="1628816226382" duration="3639000" />
     </task>
     <task id="LOCAL-00037" summary="动态规划">
       <created>1626851226460</created>
