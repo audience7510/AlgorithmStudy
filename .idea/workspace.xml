@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/栈和队列/q739_每日温度/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/栈和队列/q739_每日温度/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/栈和队列/q739_每日温度/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +151,8 @@
       <workItem from="1628582112318" duration="3003000" />
       <workItem from="1628678176205" duration="666000" />
       <workItem from="1628730846927" duration="5458000" />
-      <workItem from="1628816226382" duration="3639000" />
-    </task>
-    <task id="LOCAL-00037" summary="动态规划">
-      <created>1626851226460</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1626851226460</updated>
+      <workItem from="1628816226382" duration="4586000" />
+      <workItem from="1629076040189" duration="2099000" />
     </task>
     <task id="LOCAL-00038" summary="动态规划">
       <created>1626852825976</created>
@@ -496,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628762106037</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="栈和队列">
+      <created>1628849745598</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1628849745599</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +540,8 @@
     <MESSAGE value="动态规划" />
     <MESSAGE value="树" />
     <MESSAGE value="树+README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="树+README.md" />
+    <MESSAGE value="栈和队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈和队列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -566,10 +568,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1628762105525">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1628849745051">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628762105525" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628849745051" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -622,10 +624,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626658089168" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628762107095">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1628849883519">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628762107095" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628849883519" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
