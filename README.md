@@ -113,6 +113,6 @@ https://leetcode-cn.com/
 
 -------
 
-## 面试相关
+## Java相关
 
-- [面试整理](src/面试/Interview.md)
+- [Java知识整理](src/Java知识整理/Interview.md)
