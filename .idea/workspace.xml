@@ -31,7 +31,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/栈和队列/q503_下一个更大元素II/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/栈和队列/q503_下一个更大元素II/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +154,7 @@
       <workItem from="1628816226382" duration="4586000" />
       <workItem from="1629076040189" duration="7481000" />
       <workItem from="1629085504031" duration="5334000" />
-      <workItem from="1629162889185" duration="5472000" />
-    </task>
-    <task id="LOCAL-00042" summary="动态规划">
-      <created>1626922660729</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1626922660729</updated>
+      <workItem from="1629162889185" duration="5876000" />
     </task>
     <task id="LOCAL-00043" summary="动态规划">
       <created>1626925510513</created>
@@ -499,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629164957576</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="栈和队列">
+      <created>1629169136005</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1629169136005</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,10 +570,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629164956841">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629169135450">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629164956841" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629169135450" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -626,10 +626,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1629080719258" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629164997275">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629169136638">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629164997275" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629169136638" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1626342826241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -638,10 +638,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="318" y="128" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1629084287417" />
-    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629093220679">
+    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629169113938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629093220679" />
+    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629169113938" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1626336639859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
