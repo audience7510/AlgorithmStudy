@@ -17,6 +17,7 @@ LinkedList 采用链表存储，所以对于add(E e)方法的插入，删除元�
 ## 并发
 ### Synchronized
 作用：1、修饰实例方法 2、修饰静态方法 3修饰代码块
+
 ### volatile
 ### ThreadLocal
 ### ConcurrentHashMap
