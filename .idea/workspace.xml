@@ -30,7 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java知识整理/other/jar包自动部署脚本.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/股票交易/q714_买卖股票的最佳时机含手续费/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/股票交易/q714_买卖股票的最佳时机含手续费/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +162,7 @@
       <workItem from="1629441361415" duration="3296000" />
       <workItem from="1629456705799" duration="6000" />
       <workItem from="1629680532857" duration="4723000" />
-      <workItem from="1629776717226" duration="7153000" />
-    </task>
-    <task id="LOCAL-00056" summary="动态规划">
-      <created>1627282174974</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1627282174974</updated>
+      <workItem from="1629776717226" duration="9877000" />
     </task>
     <task id="LOCAL-00057" summary="动态规划">
       <created>1627357795545</created>
@@ -506,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629791260226</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="部署脚本">
+      <created>1629791576996</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1629791576996</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +553,8 @@
     <MESSAGE value="README.md" />
     <MESSAGE value="数组与矩阵" />
     <MESSAGE value="动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
+    <MESSAGE value="部署脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="部署脚本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -579,10 +581,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629791259612">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629791576469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629791259612" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629791576469" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -635,18 +637,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1629080719258" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629791260940">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629791661157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629791260940" />
-    <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1629256046713">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629791661157" />
+    <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1629792976658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="339" y="48" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1629256046713" />
-    <state x="278" y="131" key="git4idea.merge.GitPullDialog" timestamp="1629791525421">
+    <state x="339" y="48" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1629792976658" />
+    <state x="278" y="131" key="git4idea.merge.GitPullDialog" timestamp="1629791642249">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="278" y="131" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791525421" />
+    <state x="278" y="131" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791642249" />
     <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629791505162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
