@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/动态规划/股票交易/q123_买卖股票的最佳时机III/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/股票交易/q714_买卖股票的最佳时机含手续费/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/股票交易/q714_买卖股票的最佳时机含手续费/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java知识整理/other" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -162,14 +163,7 @@
       <workItem from="1629441361415" duration="3296000" />
       <workItem from="1629456705799" duration="6000" />
       <workItem from="1629680532857" duration="4723000" />
-      <workItem from="1629776717226" duration="9877000" />
-    </task>
-    <task id="LOCAL-00057" summary="动态规划">
-      <created>1627357795545</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1627357795545</updated>
+      <workItem from="1629776717226" duration="13184000" />
     </task>
     <task id="LOCAL-00058" summary="README.md">
       <created>1627357855577</created>
@@ -507,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629791576996</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="动态规划">
+      <created>1629794843698</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1629794843698</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,9 +553,9 @@
     <MESSAGE value="字符串" />
     <MESSAGE value="README.md" />
     <MESSAGE value="数组与矩阵" />
-    <MESSAGE value="动态规划" />
     <MESSAGE value="部署脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="部署脚本" />
+    <MESSAGE value="动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -581,10 +582,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629791576469">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629794843171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629791576469" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629794843171" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -637,10 +638,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1629080719258" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629791661157">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629794844662">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629791661157" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629794844662" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1629792976658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -653,10 +654,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791505162" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1626336639859">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1629795502488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1626336639859" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1629795502488" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629251516830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
