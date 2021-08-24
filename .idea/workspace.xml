@@ -30,8 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/数组与矩阵/q240_搜索二维矩阵II/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java知识整理/other/jar包自动部署脚本.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数组与矩阵/q378_有序矩阵中第K小的元素/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/股票交易/q309_最佳买卖股票时机含冷冻期/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/股票交易/q309_最佳买卖股票时机含冷冻期/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LeetCodeStudy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java知识整理/other" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,15 +72,19 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="树.递归" />
       <recent name="动态规划.背包问题.q416_分割等和子集" />
       <recent name="贪心思想" />
       <recent name="动态规划.最长递增子序列.q300_最长递增子序列" />
       <recent name="动态规划.斐波那契数列" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\Java知识整理\other" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K个一组翻转链表" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K 个一组翻转链表" />
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q328_奇偶链表" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="树.BST.q669_修剪二叉搜索树" />
@@ -87,12 +93,8 @@
       <recent name="树.q671_二叉树中第二小的节点" />
       <recent name="树.q337_打家劫舍III" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q61_旋转链表" />
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K个一组翻转链表" />
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q25_K 个一组翻转链表" />
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q328_奇偶链表" />
-      <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q725_分隔链表" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
     </key>
   </component>
   <component name="RunManager">
@@ -156,14 +158,13 @@
       <workItem from="1629085504031" duration="5334000" />
       <workItem from="1629162889185" duration="12566000" />
       <workItem from="1629249072063" duration="10293000" />
-      <workItem from="1629335610560" duration="3830000" />
-    </task>
-    <task id="LOCAL-00054" summary="README.md">
-      <created>1626947794097</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1626947794097</updated>
+      <workItem from="1629335610560" duration="3867000" />
+      <workItem from="1629341281036" duration="4399000" />
+      <workItem from="1629353996989" duration="1357000" />
+      <workItem from="1629441361415" duration="3296000" />
+      <workItem from="1629456705799" duration="6000" />
+      <workItem from="1629680532857" duration="4723000" />
+      <workItem from="1629776717226" duration="6837000" />
     </task>
     <task id="LOCAL-00055" summary="动态规划">
       <created>1627031342885</created>
@@ -501,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629337550787</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="数组与矩阵">
+      <created>1629339501820</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1629339501820</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,10 +582,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629337550143">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629339501302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629337550143" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629339501302" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -630,10 +638,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1629080719258" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629337551818">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629339502546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629337551818" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629339502546" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1629256046713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
