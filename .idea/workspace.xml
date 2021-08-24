@@ -31,9 +31,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/Java知识整理/other/jar包自动部署脚本.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数组与矩阵/q378_有序矩阵中第K小的元素/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/股票交易/q309_最佳买卖股票时机含冷冻期/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/股票交易/q309_最佳买卖股票时机含冷冻期/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +161,7 @@
       <workItem from="1629441361415" duration="3296000" />
       <workItem from="1629456705799" duration="6000" />
       <workItem from="1629680532857" duration="4723000" />
-      <workItem from="1629776717226" duration="6837000" />
-    </task>
-    <task id="LOCAL-00055" summary="动态规划">
-      <created>1627031342885</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1627031342885</updated>
+      <workItem from="1629776717226" duration="7153000" />
     </task>
     <task id="LOCAL-00056" summary="动态规划">
       <created>1627282174974</created>
@@ -509,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629339501820</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="动态规划">
+      <created>1629791260224</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1629791260226</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,14 +545,14 @@
     <MESSAGE value="二分查找" />
     <MESSAGE value="贪心思想" />
     <MESSAGE value="面试相关" />
-    <MESSAGE value="动态规划" />
     <MESSAGE value="树" />
     <MESSAGE value="树+README.md" />
     <MESSAGE value="栈和队列" />
     <MESSAGE value="字符串" />
     <MESSAGE value="README.md" />
     <MESSAGE value="数组与矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组与矩阵" />
+    <MESSAGE value="动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -582,18 +579,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629339501302">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629791259612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629339501302" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629791259612" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="422" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1626314822273" />
-    <state x="118" y="50" key="DiffContextDialog" timestamp="1627376300669">
+    <state x="118" y="50" key="DiffContextDialog" timestamp="1629791546259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="118" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627376300669" />
+    <state x="118" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791546259" />
     <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1629080509323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -630,30 +627,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626433122687" />
-    <state x="393" y="42" key="RollbackChangesDialog" timestamp="1626405353307">
+    <state x="393" y="42" key="RollbackChangesDialog" timestamp="1629791426681">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="393" y="42" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1626405353307" />
+    <state x="393" y="42" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791426681" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1629080719258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1629080719258" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629339502546">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629791260940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629339502546" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629791260940" />
     <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1629256046713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="339" y="48" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1629256046713" />
-    <state x="318" y="128" key="git4idea.merge.GitPullDialog" timestamp="1629084287417">
+    <state x="278" y="131" key="git4idea.merge.GitPullDialog" timestamp="1629791525421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="318" y="128" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1629084287417" />
-    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629169113938">
+    <state x="278" y="131" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791525421" />
+    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629791505162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629169113938" />
+    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791505162" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1626336639859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
