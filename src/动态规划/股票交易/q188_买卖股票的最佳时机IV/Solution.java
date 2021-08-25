@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @Author audience
  * @Date 2021/8/24
  * @Version 1.0
- * @Description
+ * @Description 难度-hard
  * 思路：对于数组prices来说
  *      情况1：用buy[i][j]表示第i天进行j笔交易的，并且持有一只股票的收益，
  *      情况2：用sell[i][j]表示第i天进行j笔交易的，并且不持有股票的收益
