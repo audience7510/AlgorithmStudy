@@ -7,37 +7,45 @@ package 双指针.q88_合并两个有序数组;
  * @Version 1.0
  * @Description
  * 思路：双指针i,j从两个数组的末尾遍历，k为两个数组的索引和
- *      当nums2索引大于等于0时，判断nums1索引和nums2索引小于0，
- *      并且判断两个数组的值大小
+ *      遍历判断两个数组元素的大小，并赋值到k为索引的位置
+ *      当遍历结束之后，nums2可能没遍历完，需要再遍历nums2
  */
 public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-//        int i = m -1;
-//        int j = n -1;
-//        int k = m + n -1;
-//        while (i>=0 && j>=0){
-//            if (nums1[i]>nums2[j]){
+        int i = m-1;
+        int j = n-1;
+        //两个数组的长度和
+        int k = m+n-1;
+        //从两个数组的末尾开始遍历
+        while (i>=0 && j>=0){
+            //第一次循环，当nums1中最后一个元素小于nums2中的最后一个元素
+            //之后的循环，跟第一次循环同理，从后往前遍历，i和j都比较过之后，比较i-1和j-1，放置的位置就是k-1
+            if (nums1[i]<nums2[j]){
+                //把nums2最后一个元素放在末尾
+                nums1[k--] = nums2[j--];
+            }else {
+                //第一次循环，当大于时
+                //把nums1最后一个元素放在末尾
+                nums1[k--] = nums1[i--];
+            }
+        }
+        //当nums1中的元素遍历完之后，继续排序nums2
+        while (j>=0){
+            nums1[k--] = nums2[j--];
+        }
+//        int i = m - 1;
+//        int j = n - 1;
+//        int k = m + n - 1;
+//        while (j >= 0) {
+//            if (i < 0) {
+//                nums1[k--] = nums2[j--];
+//            } else if (j < 0) {
 //                nums1[k--] = nums1[i--];
-//            }else {
+//            } else if (nums1[i] > nums2[j]) {
+//                nums1[k--] = nums1[i--];
+//            } else {
 //                nums1[k--] = nums2[j--];
 //            }
 //        }
-//        while (j > 0){
-//            nums1[k--] = nums2[j--];
-//        }
-        int i = m - 1;
-        int j = n - 1;
-        int k = m + n - 1;
-        while (j >= 0) {
-            if (i < 0) {
-                nums1[k--] = nums2[j--];
-            } else if (j < 0) {
-                nums1[k--] = nums1[i--];
-            } else if (nums1[i] > nums2[j]) {
-                nums1[k--] = nums1[i--];
-            } else {
-                nums1[k--] = nums2[j--];
-            }
-        }
     }
 }
