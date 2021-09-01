@@ -29,9 +29,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
+    <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="双指针">
+      <change afterPath="$PROJECT_DIR$/src/链表/q141_环形链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/q141_环形链表/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/双指针/q88_合并两个有序数组/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针/q88_合并两个有序数组/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootSeed" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -72,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="排序.快速排序.q912_排序数组" />
       <recent name="树.递归" />
       <recent name="动态规划.背包问题.q416_分割等和子集" />
       <recent name="贪心思想" />
       <recent name="动态规划.最长递增子序列.q300_最长递增子序列" />
-      <recent name="动态规划.斐波那契数列" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\Java知识整理\other" />
@@ -86,35 +87,15 @@
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\链表\q328_奇偶链表" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="链表.q141_环形链表" />
+      <recent name="链表.q25_K个一组翻转链表" />
+      <recent name="链表.q146_LRU缓存机制" />
       <recent name="树.BST.q669_修剪二叉搜索树" />
       <recent name="树.层次遍历.q513_找树左下角的值" />
-      <recent name="树.层次遍历.q637_二叉树的层平均值" />
-      <recent name="树.q671_二叉树中第二小的节点" />
-      <recent name="树.q337_打家劫舍III" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\User\MyRepository\LeetCodeStudy\src\面试" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="树.层次遍历.q513_找树左下角的值.Solution" />
-      <module name="LeetCodeStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="树.层次遍历.q513_找树左下角的值.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Solution" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,56 +147,11 @@
       <workItem from="1629776717226" duration="16298000" />
       <workItem from="1629855084814" duration="9103000" />
       <workItem from="1629890185381" duration="3256000" />
-      <workItem from="1629941958072" duration="379000" />
-    </task>
-    <task id="LOCAL-00064" summary="动态规划">
-      <created>1627543600868</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1627543600869</updated>
-    </task>
-    <task id="LOCAL-00065" summary="树">
-      <created>1627627735644</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1627627735645</updated>
-    </task>
-    <task id="LOCAL-00066" summary="树">
-      <created>1627871422337</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1627871422337</updated>
-    </task>
-    <task id="LOCAL-00067" summary="树">
-      <created>1627957491806</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1627957491807</updated>
-    </task>
-    <task id="LOCAL-00068" summary="树">
-      <created>1627957969782</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1627957969782</updated>
-    </task>
-    <task id="LOCAL-00069" summary="树">
-      <created>1627958891517</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1627958891517</updated>
-    </task>
-    <task id="LOCAL-00070" summary="树">
-      <created>1627959769795</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1627959769795</updated>
+      <workItem from="1629941958072" duration="3464000" />
+      <workItem from="1629967973138" duration="2099000" />
+      <workItem from="1630286437765" duration="11115000" />
+      <workItem from="1630372360341" duration="3978000" />
+      <workItem from="1630458641488" duration="11372000" />
     </task>
     <task id="LOCAL-00071" summary="树">
       <created>1628041026214</created>
@@ -511,7 +447,56 @@
       <option name="project" value="LOCAL" />
       <updated>1629881042998</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="双指针">
+      <created>1629942380190</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1629942380191</updated>
+    </task>
+    <task id="LOCAL-00114" summary="双指针">
+      <created>1630287414583</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1630287414584</updated>
+    </task>
+    <task id="LOCAL-00115" summary="链表相关">
+      <created>1630292225548</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1630292225548</updated>
+    </task>
+    <task id="LOCAL-00116" summary="数组与矩阵">
+      <created>1630294222113</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1630294222113</updated>
+    </task>
+    <task id="LOCAL-00117" summary="字符串">
+      <created>1630466394121</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1630466394122</updated>
+    </task>
+    <task id="LOCAL-00118" summary="排序">
+      <created>1630479036119</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1630479036119</updated>
+    </task>
+    <task id="LOCAL-00119" summary="双指针">
+      <created>1630491299627</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1630491299627</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,79 +529,83 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="树相关" />
     <MESSAGE value="堆相关" />
-    <MESSAGE value="排序" />
-    <MESSAGE value="链表相关" />
-    <MESSAGE value="双指针" />
     <MESSAGE value="二分查找" />
     <MESSAGE value="贪心思想" />
     <MESSAGE value="面试相关" />
     <MESSAGE value="树" />
     <MESSAGE value="树+README.md" />
     <MESSAGE value="栈和队列" />
-    <MESSAGE value="字符串" />
-    <MESSAGE value="数组与矩阵" />
     <MESSAGE value="README.md" />
     <MESSAGE value="动态规划" />
     <MESSAGE value="部署脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="部署脚本" />
+    <MESSAGE value="链表相关" />
+    <MESSAGE value="数组与矩阵" />
+    <MESSAGE value="字符串" />
+    <MESSAGE value="排序" />
+    <MESSAGE value="双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="0" key="#Auto_Import/0.0.1280.680@0.0.1280.680" timestamp="1626314554739" />
-    <state x="121" y="0" key="#Project_Structure" timestamp="1629798866159">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1630293179485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1629798866159" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628566547700">
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1630293179485" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630294356805">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1628566547700" />
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1628134459878">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1630294356805" />
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1630476868820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1628134459878" />
-    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627366186172">
+    <state x="372" y="117" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1630476868820" />
+    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630476869507">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1627366186172" />
+    <state x="419" y="234" width="510" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1630476869507" />
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1628134461999">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="247" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1628134461999" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1629881042467">
+    <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1630293315953">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629881042467" />
+    <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.680@0.0.1280.680" timestamp="1630293315953" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1630491299068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630491299068" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="422" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1626314822273" />
-    <state x="118" y="50" key="DiffContextDialog" timestamp="1629791546259">
+    <state x="118" y="50" key="DiffContextDialog" timestamp="1630304003871">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="118" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791546259" />
-    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1629889298897">
+    <state x="118" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1630304003871" />
+    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1630293307534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1629889298897" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1626433122686">
+    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1630293307534" />
+    <state width="1237" height="143" key="GridCell.Tab.0.bottom" timestamp="1630321289343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626433122686" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1626433122686">
+    <state width="1237" height="143" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1630321289343" />
+    <state width="1237" height="143" key="GridCell.Tab.0.center" timestamp="1630321289343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626433122686" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1626433122686">
+    <state width="1237" height="143" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1630321289343" />
+    <state width="1237" height="143" key="GridCell.Tab.0.left" timestamp="1630321289342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626433122686" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1626433122686">
+    <state width="1237" height="143" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1630321289342" />
+    <state width="1237" height="143" key="GridCell.Tab.0.right" timestamp="1630321289343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626433122686" />
+    <state width="1237" height="143" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1630321289343" />
     <state width="1237" height="176" key="GridCell.Tab.1.bottom" timestamp="1626433122687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -633,38 +622,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626433122687" />
-    <state x="393" y="42" key="RollbackChangesDialog" timestamp="1629791426681">
+    <state x="393" y="42" key="RollbackChangesDialog" timestamp="1630491655581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="393" y="42" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791426681" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1629080719258">
+    <state x="393" y="42" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1630491655581" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1630294450627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1629080719258" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1629881043868">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1630294450627" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1630491300313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1629881043868" />
-    <state x="339" y="48" width="603" height="584" key="find.popup" timestamp="1629942194219">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630491300313" />
+    <state x="188" y="40" width="905" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1630293773480">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="339" y="48" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1629942194219" />
+    <state x="188" y="40" width="905" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1630293773480" />
+    <state x="317" y="58" width="603" height="584" key="find.popup" timestamp="1630491670470">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="317" y="58" width="603" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1630491670470" />
     <state x="278" y="131" key="git4idea.merge.GitPullDialog" timestamp="1629791642249">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="278" y="131" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791642249" />
-    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629791505162">
+    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629975588367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629791505162" />
+    <state x="357" y="240" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1629975588367" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1629795502488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1629795502488" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1629251516830">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1630293947991">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1629251516830" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1630293947991" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
