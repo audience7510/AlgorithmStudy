@@ -12,7 +12,7 @@ package 链表.q160_相交链表;
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        //存储一下头节点，因为头节点还需要第二次使用
+        //存储一下头节点用来做遍历，因为原始头节点还需要第二次使用
         ListNode la = headA;
         ListNode lb = headB;
 
