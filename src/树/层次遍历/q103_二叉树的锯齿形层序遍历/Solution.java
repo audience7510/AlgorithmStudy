@@ -48,7 +48,8 @@ public class Solution {
             //加到要返回集合中
             lists.add(new LinkedList<>(deque));
             //一层遍历结束，遍历下一层，改变奇偶性
-            flag = false;
+            //不能直接赋值false，因此下一次的下一次遍历，为偶数，但是不能赋值为true
+            flag = !flag;
         }
         return lists;
     }

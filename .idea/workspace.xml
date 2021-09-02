@@ -30,9 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8447b88d-6b73-413d-ab36-2a6f207fe706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/树/层次遍历/q103_二叉树的锯齿形层序遍历/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/树/层次遍历/q103_二叉树的锯齿形层序遍历/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/层次遍历/q103_二叉树的锯齿形层序遍历/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/层次遍历/q103_二叉树的锯齿形层序遍历/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +150,7 @@
       <workItem from="1629967973138" duration="2099000" />
       <workItem from="1630286437765" duration="11115000" />
       <workItem from="1630372360341" duration="3978000" />
-      <workItem from="1630458641488" duration="26027000" />
-    </task>
-    <task id="LOCAL-00077" summary="树">
-      <created>1628046579428</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1628046579428</updated>
+      <workItem from="1630458641488" duration="26170000" />
     </task>
     <task id="LOCAL-00078" summary="树">
       <created>1628049618204</created>
@@ -496,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630571744879</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="树">
+      <created>1630580430485</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1630580430485</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,9 +540,9 @@
     <MESSAGE value="排序" />
     <MESSAGE value="双指针" />
     <MESSAGE value="链表相关" />
-    <MESSAGE value="树" />
     <MESSAGE value="README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <MESSAGE value="树" />
+    <option name="LAST_COMMIT_MESSAGE" value="树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="0" key="#Auto_Import" timestamp="1626314554739">
@@ -574,10 +573,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.680@0.0.1280.680" timestamp="1630293315953" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1630571744209">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1630580429941">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630571744209" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630580429941" />
     <state width="422" height="438" key="DebuggerActiveHint" timestamp="1626314822273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -630,10 +629,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1630294450627" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1630571745739">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1630580432022">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630571745739" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630580432022" />
     <state x="188" y="40" width="905" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1630293773480">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
