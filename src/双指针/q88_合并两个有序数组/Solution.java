@@ -20,6 +20,7 @@ public class Solution {
         while (i>=0 && j>=0){
             //第一次循环，当nums1中最后一个元素小于nums2中的最后一个元素
             //之后的循环，跟第一次循环同理，从后往前遍历，i和j都比较过之后，比较i-1和j-1，放置的位置就是k-1
+            //这样把nums1或者nums2中较大的值放在末尾，避免了nums1在取出之前值被覆盖
             if (nums1[i]<nums2[j]){
                 //把nums2最后一个元素放在末尾
                 nums1[k--] = nums2[j--];
@@ -29,23 +30,10 @@ public class Solution {
                 nums1[k--] = nums1[i--];
             }
         }
-        //当nums1中的元素遍历完之后，继续排序nums2
+        //当nums1中的元素遍历完之后，即nums1中的值都比nums2中的大，nums1的值都放在了末尾
+        //但是nums2还未放到nums1中，所以继续排序nums2
         while (j>=0){
             nums1[k--] = nums2[j--];
         }
-//        int i = m - 1;
-//        int j = n - 1;
-//        int k = m + n - 1;
-//        while (j >= 0) {
-//            if (i < 0) {
-//                nums1[k--] = nums2[j--];
-//            } else if (j < 0) {
-//                nums1[k--] = nums1[i--];
-//            } else if (nums1[i] > nums2[j]) {
-//                nums1[k--] = nums1[i--];
-//            } else {
-//                nums1[k--] = nums2[j--];
-//            }
-//        }
     }
 }
