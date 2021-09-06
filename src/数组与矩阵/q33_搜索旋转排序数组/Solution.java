@@ -13,12 +13,18 @@ package 数组与矩阵.q33_搜索旋转排序数组;
 public class Solution {
     public int search(int[] nums, int target) {
         int n = nums.length;
+//        if (n == 0){
+//            return -1;
+//        }
+//        if (n == 1){
+//            return nums[0] == target? 0:-1;
+//        }
         if (n<=1){
-            return nums[0] == target? nums[0]:-1;
+            return nums[0] == target? 0:-1;
         }
         int l = 0;
         int r = n-1;
-        while (l<r){
+        while (l<=r){
             int mid = (l+r)/2;
             if (nums[mid] == target){
                 return mid;
@@ -37,7 +43,7 @@ public class Solution {
             //右半部分是有序
             else {
                 //target在mid和length-1之间
-                if (nums[mid+1]<target && target<=nums[n-1]){
+                if (nums[mid]<target && target<=nums[n-1]){
                     //在mid+1和length-1之间找target
                     l = mid+1;
                 }else {
