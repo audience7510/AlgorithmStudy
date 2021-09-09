@@ -24,6 +24,7 @@ public class Solution {
             int s2 = expandAroundCenter(s,i,i+1);
             int len = Math.max(s1,s2);
             if (len > end-start){
+                //len-1目的是考虑偶数回文 abba
                 start = i - (len-1)/2;
                 end = i + len/2;
             }
