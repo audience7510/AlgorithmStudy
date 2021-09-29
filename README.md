@@ -1,7 +1,7 @@
 # LeetCode和剑指offer
 LeetCode和剑指offer刷题学习的一个记录过程，代码中有详细的解题思路与代码注释。  
 - [剑指offer](README_JZ.md) 
-## 题目分类
+## LeetCode题目分类
 ### 二分查找
 - [q34_查找第一和最后一个位置](src/LeetCode/二分查找/q34_查找第一和最后一个位置)  
 - [q69_x的平方根](src/LeetCode/二分查找/q69_x的平方根)  
