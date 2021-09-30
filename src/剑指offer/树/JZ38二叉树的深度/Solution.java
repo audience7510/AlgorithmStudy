@@ -9,8 +9,11 @@ package 剑指offer.树.JZ38二叉树的深度;
  */
 public class Solution {
     public int TreeDepth(TreeNode root) {
-
-
-        return 0;
+        if (root == null){
+            return 0;
+        }
+        int left = TreeDepth(root.left);
+        int right = TreeDepth(root.right);
+        return Math.max(left,right)+1;
     }
 }
