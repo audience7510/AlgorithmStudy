@@ -9,6 +9,12 @@ package LeetCode.链表.q21_合并两个有序链表;
  * 思路：两个链表头部较小的一个，指向递归出来的较大节点
  */
 public class Solution {
+    /**
+     * @Date 2021/10/8
+     * @Param [l1, l2]
+     * @return
+     * @Description 递归方式
+     */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         //两个链表为升序，递归调用结束，谁先为null，链表到末尾了
         if (l1 == null){
@@ -31,5 +37,30 @@ public class Solution {
             //l2拼接完之后返回，用于下次出栈
             return l2;
         }
+    }
+
+    /**
+     * @Date 2021/10/8
+     * @Param [l1, l2]
+     * @return
+     * @Description 迭代方式
+     */
+    public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
+        ListNode preHead = new ListNode(-1);
+        //用于节点后移
+        ListNode prev = preHead;
+        while (l1!=null && l2!=null){
+            if (l1.val<=l2.val){
+                prev.next = l1;
+                l1 = l1.next;
+            }else {
+                prev.next = l2;
+                l2 = l2.next;
+            }
+            prev = prev.next;
+        }
+
+        prev.next = l1 ==null? l2:l1;
+        return preHead.next;
     }
 }
