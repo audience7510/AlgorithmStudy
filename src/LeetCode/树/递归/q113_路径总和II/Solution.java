@@ -12,8 +12,8 @@ import java.util.List;
  * @Version 1.0
  * @Description
  * 思路：该题目解题思路与
- * @see LeetCode.树.递归.q112_路径总和.Solution
- * 解题思路一样，并使用了一个双向队列 Deque 存储路径的节点值
+ * @see LeetCode.树.递归.q112_路径总和.Solution 解题思路一样，
+ * 并使用了一个双向队列 Deque 存储路径的节点值
  */
 public class Solution {
 
