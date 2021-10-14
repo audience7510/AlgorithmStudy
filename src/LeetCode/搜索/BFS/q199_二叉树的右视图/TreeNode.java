@@ -1,4 +1,4 @@
-package LeetCode.树.BFS.q199_二叉树的右视图;
+package LeetCode.搜索.BFS.q199_二叉树的右视图;
 
 public class TreeNode {
     int val;
