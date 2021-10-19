@@ -7,7 +7,7 @@ package LeetCode.二分查找.q34_查找第一和最后一个位置;
  * @Version 1.0
  * @Description
  * 思路：遍历查找索引位置和target，时间复杂度O(n)
- *      LeetCode.二分查找，时间复杂度O(logn)
+ *      二分查找，时间复杂度O(logn)
  *      使用二分法，先找出target最左位置，由于是有序数组，找出target+1的最左位置last，
  *      然后last-1就是target最右位置
  */

@@ -6,7 +6,7 @@ package LeetCode.二分查找.q744_寻找比目标字母大的最小字母;
  * @Date 2021/7/16
  * @Version 1.0
  * @Description
- * 思路：LeetCode.二分查找，进行判断，找到后不返回，继续缩小查找范围
+ * 思路：二分查找，进行判断，找到后不返回，继续缩小查找范围
  *      最后返回判断l是否大于数组长度，超过数组长度说明没找到，返回头字符
  */
 public class Solution {

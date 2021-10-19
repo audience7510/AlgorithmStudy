@@ -6,7 +6,7 @@ package LeetCode.二分查找.q704_二分查找;
  * @Date 2021/9/9
  * @Version 1.0
  * @Description
- * LeetCode.二分查找
+ * 二分查找
  */
 public class Solution {
     public int search(int[] nums, int target) {
