@@ -83,7 +83,9 @@ LeetCode和剑指offer刷题学习的一个记录过程，代码中有详细的�
 - [q200_岛屿数量](src/LeetCode/搜索/DFS/q200_岛屿数量)  
 
 ##### 回溯
+- [q39_组合总和](src/LeetCode/搜索/回溯/q39_组合总和)  
 - [q46_全排列](src/LeetCode/搜索/回溯/q46_全排列)  
+- [q78_子集](src/LeetCode/搜索/回溯/q78_子集)  
 
 ###
 ### 链表
@@ -162,7 +164,6 @@ LeetCode和剑指offer刷题学习的一个记录过程，代码中有详细的�
 - [q33_搜索旋转排序数组](src/LeetCode/数组与矩阵/q33_搜索旋转排序数组)
 - [q54_螺旋矩阵](src/LeetCode/数组与矩阵/q54_螺旋矩阵)
 - [q56_合并区间](src/LeetCode/数组与矩阵/q56_合并区间)
-- [q78_子集](src/LeetCode/数组与矩阵/q78_子集)
 - [q169_多数元素](src/LeetCode/数组与矩阵/q169_多数元素)
 - [q240_搜索二维矩阵II](src/LeetCode/数组与矩阵/q240_搜索二维矩阵II)
 - [q283_移动零](src/LeetCode/数组与矩阵/q283_移动零)

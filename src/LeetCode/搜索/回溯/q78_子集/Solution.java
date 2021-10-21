@@ -1,4 +1,4 @@
-package LeetCode.数组与矩阵.q78_子集;
+package LeetCode.搜索.回溯.q78_子集;
 
 import java.util.ArrayList;
 import java.util.List;
