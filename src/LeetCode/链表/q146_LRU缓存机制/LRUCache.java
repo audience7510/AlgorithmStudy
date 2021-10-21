@@ -64,7 +64,7 @@ public class LRUCache {
     //构造方法初始化LRUCache
     public LRUCache(int capacity){
         head.next = tail;
-        head.pre = head;
+        tail.pre = head;
         this.capacity = capacity;
         this.size = 0;
     }
