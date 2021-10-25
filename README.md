@@ -178,8 +178,7 @@ LeetCode和剑指offer刷题学习的一个记录过程，代码中有详细的�
 3、https://github.com/geekxh/hello-algorithm  
 4、https://github.com/youngyangyang04/leetcode-master  
   
-以及LeetCode  
-https://leetcode-cn.com/  
+以及[LeetCode](https://leetcode-cn.com/)  
 
 -------
 
