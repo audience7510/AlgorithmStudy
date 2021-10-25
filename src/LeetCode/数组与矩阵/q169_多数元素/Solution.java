@@ -6,6 +6,7 @@ package LeetCode.数组与矩阵.q169_多数元素;
  * @Date 2021/10/12
  * @Version 1.0
  * @Description
+ * 思路：投票法，时间复杂度O(n)，空间复杂度O(1)
  */
 public class Solution {
     public int majorityElement(int[] nums) {

@@ -1,4 +1,4 @@
-package LeetCode.数组与矩阵.q46_全排列;
+package LeetCode.搜索.回溯.q46_全排列;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
