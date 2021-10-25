@@ -37,4 +37,21 @@ public class Solution {
         }
         return max;
     }
+
+    /**
+     * @Date 2021/10/25
+     * @Param [nums]
+     * @return
+     * @Description
+     * 动态规划：f(i)=max{f(i−1)+nums[i],nums[i]}
+     */
+    public int maxSubArray2(int[] nums) {
+        int sum = 0;
+        int max = nums[0];
+        for (int num : nums) {
+            sum = Math.max(num,sum+num);
+            max = Math.max(max,sum);
+        }
+        return max;
+    }
 }
