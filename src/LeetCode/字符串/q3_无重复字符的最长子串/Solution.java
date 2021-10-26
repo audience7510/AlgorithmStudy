@@ -20,8 +20,8 @@ public class Solution {
         for (int j = 0; j < s.length(); j++) {
             //如果map中出现过该字符
             if (map.containsKey(s.charAt(j))){
-                //遇到重复，更新左侧窗口的位置，取当前索引，和之前左侧窗口索引的最大值
-                //目的是保证跳过重复区间
+                //将i左侧窗口更新，取重复字符的的value+1，和当前索引i二者的最大值
+                //value+1为不重复的字符，取二者最大值目的是防止窗口左移
                 i = Math.max(map.get(s.charAt(j))+1,i);
             }
             //然后取上一次不重复长度，和本次不重复长度的最大值
