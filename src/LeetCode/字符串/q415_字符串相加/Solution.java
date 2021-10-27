@@ -15,6 +15,7 @@ public class Solution {
         int add = 0;
         StringBuilder sb = new StringBuilder();
         while (i>=0 || j>=0 || add !=0){
+            //字符相减 '3'-'0' 得到int类型的数字3
             int x = i>=0? num1.charAt(i)-'0' : 0;
             int y = j>=0? num2.charAt(j)-'0' : 0;
             //得到字符的int类型相加，并加上上次遍历满十进一的一个值

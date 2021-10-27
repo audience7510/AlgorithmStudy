@@ -24,11 +24,12 @@ public class Solution {
             int s2 = expandAroundCenter(s,i,i+1);
             int len = Math.max(s1,s2);
             if (len > end-start){
-                //len-1目的是考虑偶数回文 abba
+                //得到回文串开头和末尾的位置
                 start = i - (len-1)/2;
                 end = i + len/2;
             }
         }
+        //end+1因为sub截取含左不含右
         return s.substring(start,end+1);
     }
 
@@ -39,7 +40,7 @@ public class Solution {
             left--;
             right++;
         }
-        //最终返回回文字符串长度  vadcdam 0+1=1 6-0-1=5
+        //最终返回回文字符串长度  vadcdam 6-0-1=5
         return right-left-1;
     }
 
