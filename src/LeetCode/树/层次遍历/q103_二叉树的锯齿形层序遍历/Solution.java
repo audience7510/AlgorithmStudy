@@ -24,7 +24,7 @@ public class Solution {
         //定义flag来标识奇偶层
         boolean flag = true;
         while (!queue.isEmpty()){
-            //双向队列，支持元素从前后两端插入和移除
+            //双向队列，支持元素从前后两端插入和移除，类似于栈
             Deque<Integer> deque = new LinkedList<>();
             int size = queue.size();
             while (size>0){
