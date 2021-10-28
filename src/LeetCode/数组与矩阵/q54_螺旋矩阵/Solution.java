@@ -46,6 +46,15 @@ public class Solution {
             for (int row = top+1; row <= down; row++) {
                 list.add(matrix[row][right]);
             }
+            /**
+             *  1 1 1 1 1 1
+             *  1 2 2 2 2 1
+             *  1 2 5 5 2 1
+             *  1 2 2 2 2 1
+             *  1 2 2 2 2 1
+             *  加这一行的判断是因为，当遍历两圈之后，只剩中间两个 5 5 了
+             *  这时，top=down，不需要再进行从 右到左、下到上的遍历了
+             */
             if (left<right && top<down){
                 //下边一行，从右到左。当前遍历第一个节点与从上到下的遍历的最后一个节点重复，所以right-1
                 for (int colum = right-1; colum > left; colum--) {
