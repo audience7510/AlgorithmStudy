@@ -6,10 +6,12 @@ package LeetCode.链表.q148_排序链表;
  * @Date 2021/9/27
  * @Version 1.0
  * @Description
- * 思路：快慢指针找到链表中点，递归继续找中点，终止条件为
- *      当链表节点数小于或等于1时，即链表为空或只包含一个节点
+ * 思路：自顶向下归并排序，时间复杂度O(nlogn)，空间复杂度O(logn)快慢指针找到链表中点，递归继续找中点，
+ *      终止条件为当链表节点数小于或等于1时，即链表为空或只包含一个节点
  *      合并两个有序链表，merge方法采用迭代，merge2方法采用递归
  *      merge2与 q21_合并两个有序链表 一样，使用递归
+ *
+ *      自底向上归并排序，时间复杂度O(nlogn)，空间复杂度O(1)
  */
 public class Solution {
     public ListNode sortList(ListNode head) {
