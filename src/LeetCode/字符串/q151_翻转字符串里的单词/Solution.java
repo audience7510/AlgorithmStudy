@@ -17,12 +17,14 @@ public class Solution {
     public String reverseWords(String s) {
         int left = 0;
         int right = s.length()-1;
-        //去除开头空格
+        //去除开头空格，左侧索引加1之后，s.charAt(left)== ' '不满足条件，跳出循环
+        //此时left为1
         while (left<=right && s.charAt(left)== ' '){
             left++;
         }
 
-        //去除末尾空格
+        //去除末尾空格，右侧索引减1之后，s.charAt(right)== ' '不满足条件，跳出循环
+        //此时right为s.length()-2
         while (left<=right && s.charAt(right)== ' '){
             right--;
         }
@@ -39,7 +41,8 @@ public class Solution {
                 //将StringBuilder长度置为0
                 word.setLength(0);
             }else if (c!=' '){
-                //其他情况，将字符拼接到StringBuilder后
+                //使用else if是因为防止空格拼接到字符上
+                //将字符拼接到StringBuilder后
                 word.append(c);
             }
             //右移
