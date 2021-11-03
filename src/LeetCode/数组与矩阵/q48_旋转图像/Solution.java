@@ -9,8 +9,12 @@ package LeetCode.数组与矩阵.q48_旋转图像;
  * 思路：翻转代替旋转，水平翻转之后再对角线翻转
  *      水平翻转(上下翻转)，matrix[row][col] = matrix[n-row-1][col]，n为matrix.length
  *
- *      对角线翻转(按照左上到右下的对角线翻转)
+ *      对角线翻转(按照左下到右上的对角线翻转)
  *      matrix[row][col] = matrix[col][row]
+ *
+ *      1 2 3   7 8 9   7 4 1
+ *      4 5 6   4 5 6   8 5 2
+ *      7 8 9   1 2 3   9 6 3
  */
 public class Solution {
     public void rotate(int[][] matrix) {
