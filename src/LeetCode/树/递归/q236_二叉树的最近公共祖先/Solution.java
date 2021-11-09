@@ -36,4 +36,20 @@ public class Solution {
         //p和q只有一个存在于root为根的树中，则返回该节点
         return left == null? right:left;
     }
+
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q){
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor2(root.left, p, q);
+        TreeNode right = lowestCommonAncestor2(root.right, p, q);
+        if (left == null){
+            return right;
+        }
+        if (right == null){
+            return left;
+        }
+
+        return root;
+    }
 }
