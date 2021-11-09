@@ -16,6 +16,7 @@ public class Solution {
         }
         ListNode slow = head;
         ListNode fast = head.next;
+        //循环条件判断两个节点是否相同，那么初始化的快慢节点不能同时为head
         while (slow!=fast){
             //快指针走到末尾了，说明没有环，返回false
             if (fast == null || fast.next == null){
