@@ -63,7 +63,7 @@ public class Solution {
         nums[i] = temp;
         //中间点i 左边的都小于基准数，右边的都大于基准数，递归继续排序
         quickSort(nums,left,i-1);
-        quickSort(nums,i-1,right);
+        quickSort(nums,i+1,right);
     }
 
     private static void swap(int[] nums, int i, int j) {
@@ -74,6 +74,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int [] arr = {3,2,1,5,6,4};
-        int kthLargest = findKthLargest(arr, 2);
+        int kthLargest = findKthLargest2(arr, 2);
+        System.out.println(kthLargest);
     }
 }
