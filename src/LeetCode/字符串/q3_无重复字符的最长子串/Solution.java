@@ -1,7 +1,9 @@
 package LeetCode.字符串.q3_无重复字符的最长子串;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @ClassName Solution
@@ -10,6 +12,7 @@ import java.util.Map;
  * @Version 1.0
  * @Description
  * 思路：滑动窗口，并使用map来保存出现过的字符，key为字符，value为字符在字符串中的索引
+ *      使用set集合的方法2更容易理解
  */
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -28,6 +31,30 @@ public class Solution {
             res = Math.max(res,j-i+1);
             //将字符加入到map中
             map.put(s.charAt(j),j);
+        }
+        return res;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
+        Set<Character> set = new HashSet<>();
+        int left = 0;
+        int right = 0;
+        int res = 0;
+        while (right<s.length()){
+            //set中不存在字符
+            if (!set.contains(s.charAt(right))){
+                //那么左窗口left不变，右窗口right右移
+                set.add(s.charAt(right));
+                right++;
+            }else {
+                //set中存在字符
+                //左窗口右移，set移除左窗口元素，直到与右窗口的元素不重复
+                while (set.contains(s.charAt(right))){
+                    set.remove(s.charAt(left));
+                    left++;
+                }
+            }
+            res = Math.max(res,right-left);
         }
         return res;
     }
