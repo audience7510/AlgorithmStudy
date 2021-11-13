@@ -1,4 +1,4 @@
-# LeetCode和剑指offer
+# LeetCode和剑指offer 
 LeetCode和剑指offer刷题学习的一个记录过程，代码中有详细的解题思路与代码注释。  
 - [剑指offer](README_JZ.md)  
 ## LeetCode题目分类  
