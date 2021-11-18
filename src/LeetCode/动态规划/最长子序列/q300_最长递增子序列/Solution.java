@@ -12,6 +12,7 @@ package LeetCode.动态规划.最长子序列.q300_最长递增子序列;
  *      状态转移方程：dp[i]=max(dp[j])+1,其中0<=j<i且num[j]<num[i]
  *      dp数组中存储的是遍历到该元素，递增的个数，所以遍历结束，dp[nums.length]并不是
  *      自增个数的最大值，所以用max来存储遍历中的最大个数
+ *      时间复杂度O(n2)，空间复杂度O(n)
  */
 public class Solution {
     public int lengthOfLIS(int[] nums) {
