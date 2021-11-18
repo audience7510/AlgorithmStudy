@@ -8,6 +8,8 @@ package LeetCode.树.递归.q124_二叉树中的最大路径和;
  * @Description
  * 思路：递归，当前节点的值 与 左右节点贡献值之和，
  *      贡献值是节点值与左或右节点最大值的和
+ *
+ *      核心在于计算结果的时候要计算左右子树，递归返回的时候只能返回较大的一边
  */
 public class Solution {
     int max = Integer.MIN_VALUE;
