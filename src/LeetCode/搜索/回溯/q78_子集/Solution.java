@@ -12,6 +12,7 @@ import java.util.List;
  * 思路：创建二维数组res，用于存储子集(一维数组)
  *      遍历nums，在nums的for循环中遍历res，得到res中的每一个子集，并赋值给新子集
  *      新子集中放入nums中的值，并添加到res中
+ *      关键在于遍历res之后，得到集合赋值给新集合
  */
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
