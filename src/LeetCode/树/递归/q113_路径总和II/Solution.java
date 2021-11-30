@@ -14,6 +14,7 @@ import java.util.List;
  * 思路：该题目解题思路与
  * @see LeetCode.树.递归.q112_路径总和.Solution 解题思路一样，
  * 并使用了一个双向队列 Deque 存储路径的节点值
+ * 回溯，双向队列加入root节点的值，递归之后再移除
  */
 public class Solution {
 
