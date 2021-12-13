@@ -47,8 +47,13 @@ public class Solution {
                 set.add(s.charAt(right));
                 right++;
             }else {
-                //set中存在字符
-                //左窗口右移，set移除左窗口元素，直到与右窗口的元素不重复
+                /**
+                 * set中存在字符
+                 * 为什么要再一次while循环，因为取的是子串，与当前right位置重复的字符在left和right中间，
+                 * 从left到right删除，直到set中没有重复字符，left到right的长度是无重复最长子串
+                 *
+                 * 左窗口右移，set移除左窗口元素，直到与右窗口的元素不重复
+                 */
                 while (set.contains(s.charAt(right))){
                     set.remove(s.charAt(left));
                     left++;
