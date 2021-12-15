@@ -32,4 +32,18 @@ public class Solution {
 
         return max;
     }
+
+    public int maxProfit2(int[] prices) {
+        //最小价格
+        int min = prices[0];
+        //最大价格
+        int max = 0;
+        for (int i = 0; i < prices.length; i++) {
+            //价格最小赋值
+            min = Math.min(min,prices[i]);
+            //相减最大赋值
+            max = Math.max(max,prices[i]-min);
+        }
+        return max;
+    }
 }
