@@ -11,7 +11,7 @@ package LeetCode.数组与矩阵.q33_搜索旋转排序数组;
  *      2、在有序的半段里，判断目标值在不在
  */
 public class Solution {
-    public int search(int[] nums, int target) {
+    public static int search(int[] nums, int target) {
         int n = nums.length;
 //        if (n == 0){
 //            return -1;
@@ -26,6 +26,7 @@ public class Solution {
         int r = n-1;
         while (l<=r){
             int mid = (l+r)/2;
+//            int mid = l + (r-l)/2;
             if (nums[mid] == target){
                 return mid;
             }
@@ -53,6 +54,12 @@ public class Solution {
             }
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {4,5,6,7,1,2,3};
+        int search = search(arr, 3);
+        System.out.println(search);
     }
 }
 
