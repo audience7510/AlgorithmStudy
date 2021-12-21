@@ -12,6 +12,8 @@ import java.util.Queue;
  * @Version 1.0
  * @Description
  * 思路：对树的每一层进行遍历，并记录每一层的最后一个元素
+ *      怎么样才是一层遍历？加到queue队列中的node节点，再用一次for循环遍历，
+ *
  */
 public class Solution {
     public List<Integer> rightSideView(TreeNode root) {
