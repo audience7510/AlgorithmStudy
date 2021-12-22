@@ -22,6 +22,7 @@ public class Solution {
             return new int[0][2];
         }
         //根据数组的左端点升序排序
+//        Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
         Arrays.sort(intervals, new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
