@@ -26,6 +26,8 @@ public class Solution {
             //如果不重复，直接加到head的后面
             head.next = deleteDuplicates(next);
         }
+        //最后返回的head不存在重复节点，因为if判断中重复的head被不重复的节点覆盖
+        //else判断中head与下一个元素不重复，可以直接返回
         return head;
     }
 }
