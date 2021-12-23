@@ -6,7 +6,9 @@ package LeetCode.链表.q2_两数相加;
  * @Date 2021/7/9
  * @Version 1.0
  * @Description
- * 思路：
+ * 思路：两个链表节点求和，定义int类型k，接收求和的满十进一，
+ *      创建root头节点，将求和的值跟10取余，放到root节点的next
+ *      头节点后移，两个链表的节点后移
  */
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
