@@ -9,6 +9,7 @@ package LeetCode.动态规划.最长子序列.q1143_最长公共子序列;
  * 思路：创建二维数组保存最长公共子序列的长度
  *      当字符相等时，状态转移方程：dp[i][j] = dp[i-1][j-1]+1
  *      当字符串不相等时：dp[i][j] = max(dp[i-1][j],dp[i][j-1])
+ *      时间复杂度O(mn)空间复杂度O(mn)
  */
 public class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
