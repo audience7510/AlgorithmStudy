@@ -15,7 +15,7 @@ package LeetCode.双指针.q31_下一个排列;
  */
 public class Solution {
     public static void nextPermutation(int[] nums) {
-        //防止索引越界
+        //防止索引越界987669
         int i = nums.length-2;
         //从后向前遍历 低位到高位(类似于个位到十位)
         //循环 一直到i索引值 >= i+1索引值为false，即i索引值小于i+1索引值 跳出循环
@@ -34,6 +34,7 @@ public class Solution {
             swap(nums,i,j);
         }
         //i和j交换之后，根据第一个while循环，i+1之后的是降序，要翻转成升序
+        //若i<0了，即第一个while循环结束，没有nums[i]<nums[i+1]的，那么数组是最大的，直接翻转成最小的
         reverse(nums,i+1);
     }
 
