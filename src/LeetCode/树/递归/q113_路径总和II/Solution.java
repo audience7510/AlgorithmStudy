@@ -12,9 +12,10 @@ import java.util.List;
  * @Version 1.0
  * @Description
  * 思路：该题目解题思路与
- * @see LeetCode.树.递归.q112_路径总和.Solution 解题思路一样，
- * 并使用了一个双向队列 Deque 存储路径的节点值
- * 回溯，双向队列加入root节点的值，递归之后再移除
+ * @see LeetCode.树.递归.q112_路径总和.Solution 类似，
+ * 并使用了一个双向队列 Deque 存储路径的节点值，加到末尾
+ * 当targetSum减为0，并且是叶子节点，即左右子树为null，路径满足
+ * 回溯思想，双向队列加入root节点的值，递归之后再移除
  */
 public class Solution {
 
