@@ -7,6 +7,7 @@ package LeetCode.数组与矩阵.q169_多数元素;
  * @Version 1.0
  * @Description
  * 思路：投票法，时间复杂度O(n)，空间复杂度O(1)
+ *      需要定义一个计数的变量，和多数元素的变量
  */
 public class Solution {
     public int majorityElement(int[] nums) {
