@@ -13,6 +13,10 @@ import java.util.List;
  *      遍历nums，在nums的for循环中遍历res，得到res中的每一个子集，并赋值给新子集
  *      新子集中放入nums中的值，并添加到res中
  *      关键在于遍历res之后，得到集合赋值给新集合
+ *
+ *      时间复杂度O(n * 2^N)，空间复杂度O(n)
+ *      一共有2的n次方中结果集，每个结果集需要O(n)的时间复杂度来构建
+ *      temp集合的空间复杂度O(n)
  */
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
