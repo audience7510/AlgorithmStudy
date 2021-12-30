@@ -7,6 +7,7 @@ package LeetCode.树.递归.q543_二叉树的直径;
  * @Version 1.0
  * @Description
  * 思路：最大直径就是左右子树最大路径和
+ *      定义全局变量max记录最大路径
  */
 public class Solution {
     int max = 0;
