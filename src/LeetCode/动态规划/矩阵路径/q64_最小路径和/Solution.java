@@ -13,6 +13,8 @@ package LeetCode.动态规划.矩阵路径.q64_最小路径和;
  *      中间的列和行dp[i][j]=min(dp[i-1][j],dp[i][j-1]) +grid[i][j]，
  *      而中间的[i][j]这个位置，取左边和上边路径相加和的最小值
  *      另外三者都加上本节点的值
+ *
+ *      要点：根据dp公式，起始点、第一行、第一列需要先赋值
  */
 public class Solution {
     public int minPathSum(int[][] grid) {
