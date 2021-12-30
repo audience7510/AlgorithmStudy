@@ -11,10 +11,12 @@ package LeetCode.数组与矩阵.q48_旋转图像;
  *
  *      对角线翻转(按照左下到右上的对角线翻转)
  *      matrix[row][col] = matrix[col][row]
+ *      水平翻转遍历行数需对半，另一半为n-1-i，
+ *      对角线翻转列数小于行数
  *
- *      1 2 3   7 8 9   7 4 1
- *      4 5 6   4 5 6   8 5 2
- *      7 8 9   1 2 3   9 6 3
+ *      1 2 3    7 8 9    7 4 1
+ *      4 5 6 -> 4 5 6 -> 8 5 2
+ *      7 8 9    1 2 3    9 6 3
  */
 public class Solution {
     public void rotate(int[][] matrix) {
