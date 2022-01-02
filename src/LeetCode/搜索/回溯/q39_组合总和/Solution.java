@@ -37,6 +37,7 @@ public class Solution {
             //放入集合
             list.add(candidates[i]);
             //递归调用，参数i为当前元素的索引，下次target大于0，还会将当前元素放入集合
+            //target-candidates[i]这个值，传参的时候相减，不能提前相减，比如不能提前定义：target = target-candidates[i]
             dfs(candidates,target-candidates[i],res,list,i);
             //撤销选择
             list.remove(list.size()-1);
