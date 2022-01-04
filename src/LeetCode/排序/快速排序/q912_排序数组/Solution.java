@@ -9,6 +9,7 @@ package LeetCode.排序.快速排序.q912_排序数组;
  * 思路：快速排序，先拿到一个基准数，交换比基准数大或者小的元素，并返回分割点所在位置
  *      之后再递归调用left到分割点，分割点到right进行排序
  *      时间复杂度O(nlogn)，空间复杂度最坏O(n)，最好O(logn)
+ *      堆排序时间复杂度O(nlogn)，空间复杂度O(1)
  */
 public class Solution {
     public int[] sortArray(int[] nums) {
