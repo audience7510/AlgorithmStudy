@@ -6,6 +6,7 @@ package LeetCode.二分查找.q153_寻找旋转排序数组中的最小值;
  * @Date 2021/7/16
  * @Version 1.0
  * @Description
+ * 思路：套用二分查找模板
  */
 public class Solution {
     public int findMin(int[] nums) {
