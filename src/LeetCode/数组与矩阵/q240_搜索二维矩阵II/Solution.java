@@ -9,6 +9,7 @@ package LeetCode.数组与矩阵.q240_搜索二维矩阵II;
  * 思路：从右上角开始，行为0，列为matrix[0].length-1，可以类似于一个二叉搜索树
  *      如果目标值大于matrix[i][j]，向下移动，即i++，
  *      如果目标值小于matrix[i][j]，向左移动，即j--
+ *      时间复杂度O(m+n)，空间复杂度O(1)
  */
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
