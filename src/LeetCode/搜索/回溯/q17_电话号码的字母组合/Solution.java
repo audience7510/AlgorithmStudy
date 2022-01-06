@@ -10,6 +10,9 @@ import java.util.Map;
  * @Author audience7510
  * @Date 2022/1/6
  * @Description
+ * 思路：回溯，map中定义数字字符与字符串，通过遍历digits，得到map中的字符串，运用回溯模板
+ *      当digits的索引与digits长度相等时，加入集合
+ *      注意 1要定义map，2加入集合的时机
  */
 public class Solution {
     public static List<String> letterCombinations(String digits) {
