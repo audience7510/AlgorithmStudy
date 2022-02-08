@@ -12,7 +12,7 @@ import java.util.Set;
  * @Version 1.0
  * @Description
  * 思路：滑动窗口，并使用map来保存出现过的字符，key为字符，value为字符在字符串中的索引
- *      使用set集合的方法2更容易理解
+ *      使用set集合的方法2更容易理解，时间复杂度O(n)
  */
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
