@@ -13,7 +13,7 @@ import java.util.PriorityQueue;
  *      移除堆顶元素，也就是当前堆中最小的元素，剩下的元素都为当前添加过的元素中最大的 K 个元素
  *      时间复杂度 O(NlogK)，空间复杂度 O(K)
  *
- *      使用快速排序对数组进行排序，取nums[nums.length-k]即可
+ *      使用快速排序对数组进行排序，取nums[nums.length-k]即可，时间复杂度O(n)
  */
 public class Solution {
     public static int findKthLargest(int[] nums, int k) {
@@ -59,6 +59,7 @@ public class Solution {
             }
         }
         //最左的left(基准数) 与中间i交换
+        //目的是为了让索引i左测的数，都比temp小，右侧的数都比temp大
         nums[left] = nums[i];
         nums[i] = temp;
         //中间点i 左边的都小于基准数，右边的都大于基准数，递归继续排序
