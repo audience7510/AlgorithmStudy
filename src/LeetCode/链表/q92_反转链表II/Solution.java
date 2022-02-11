@@ -66,24 +66,28 @@ public class Solution {
 
         //用一个新变量 遍历得到right节点
         ListNode rightNode = cur;
+        //为什么是right - left + 1，假设12345，翻转left=3 right=4
+        //那么现在cur在位置2，right - left + 1=2，遍历rightNode之后在位置4
         //遍历结束，此时rightNode就是right节点
         for (int i = 0; i < right - left + 1; i++) {
             rightNode = rightNode.next;
         }
 
         //切断链表，切成三段
+        //得到345
         ListNode leftNode = cur.next;
+        //得到5，rightNode是由cur赋值，所以leftNode就被分割为34
         ListNode last = rightNode.next;
         cur.next = null;
         rightNode.next = null;
         //切完之后，得到cur、leftNode、last三段链表，leftNode是需要翻转的链表
-        //翻转leftNode
+        //翻转leftNode，得到43
         reverseN2(leftNode);
 
-        //翻转之后再拼接
-        //翻转之后，rightNode翻转到前面了，所以拼接到cur后面
+        //翻转之后再拼接 12435
+        //rightNode是4，所以拼接到cur后面
         cur.next = rightNode;
-        //翻转之后，leftNode翻转到后面了
+        //leftNode是43，last是5，所以把5拼到43后面
         leftNode.next = last;
         return dHead.next;
     }
