@@ -7,7 +7,7 @@ package LeetCode.二分查找.q69_x的平方根;
  * @Version 1.0
  * @Description
  * 思路：二分查找法，mid乘以mid是否小于等于x，是则暂存一下
- *      当循环退出时，达到最大值
+ *      当循环退出时，达到最大值，时间复杂度O(logx)
  */
 public class Solution {
     public int mySqrt(int x) {
